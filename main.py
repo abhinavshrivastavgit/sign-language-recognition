@@ -6,7 +6,7 @@
 
 import cv2
 import mediapipe as mp
-from gestures import get_finger_states, detect_gesture
+from gesture import get_finger_states, detect_gesture
 
 # ─── MediaPipe Setup ───────────────────────────────────────
 mp_hands    = mp.solutions.hands
